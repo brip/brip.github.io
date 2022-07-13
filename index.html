@@ -20,7 +20,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/welcome_logo.png" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="masthead-subheading">Welcome To Our WebSite</div>
                 <div class="masthead-heading text-uppercase">Click Below To Have More Info </div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Our Data</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Our reasons</a>
             </div>
         </header>
         <!-- Services-->
@@ -54,23 +54,25 @@
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            
-                            
+
                         </span>
+                        <img src= "https://media.giphy.com/media/yeUxljCJjH1rW/giphy.gif" alt="heart gif" width="500" height="333">
                         <h4 class="my-3">What We Do</h4>
                         <p class="text-muted">we created a website that attempts predict peoples chance's of getting heart disease</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            
+
                         </span>
+                        <img src="https://preview.redd.it/yx9j4pe1qrd21.jpg?width=640&crop=smart&auto=webp&s=b6dfbaf4b160ffb794d2b3b29782d042e95a29c3" alt="random forest" width="244" height="333">
                         <h4 class="my-3">Why We Do It</h4>
                         <p class="text-muted">we are doing this not only see how far python (the coding language) can go, but if used correctly can save lives.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            
+
                         </span>
+                        <img src=" https://th.bing.com/th/id/R.91ad1a5ae4ec44fc0beabfd34e9c2136?rik=wPOoiyMENIEwgw&riu=http%3a%2f%2fclipartmag.com%2fimage%2fheart-disease-drawing-2.png&ehk=anQZICCVtkSUP4xC85wrXdLkmDwqC6MRAfkmqTlu0O8%3d&risl=&pid=ImgRaw&r=0"alt="random forest" width="800" height="333">
                         <h4 class="my-3">How We Help</h4>
                         <p class="text-muted">using data, and AI machine learning, we can calculate and determine your chances of getting Heart disease. This can also bring awareness to people which heart disorders run in their families.</p>
                     </div>
@@ -196,38 +198,45 @@
                     </div>
                     <div class="col-lg-8">
                         <h2>Random forest</h2>
-                        <p class="lead">
-The Random Forest is a supervised machine learning algorithm, which is composed of individual decision trees. It is based on the principle of the wisdom of crowds, which states that a joint decision of many uncorrelated components is better than the decision of a single component. </p>
-                       <img src="https://cdn-images-1.medium.com/max/1200/1*58f1CZ8M4il0OZYg2oRN4w.png" alt="random forest" width="500" height="333">
+                        <p class="lead">Description of how it works
+The supervised learning method known as the random forest is a component of machine learning. It is employed to ensure that there is neither a high bias nor a high variance in the data within a training set. A random forest is designed to address the problem that no single decision tree can be trusted. A decision tree is a straightforward supervised learning technique that has three components: a root node, a predictor, and a leaf node. It can be used for regression or classification.
+ </p>
+                       <img src="https://cdn-images-1.medium.com/max/1200/1*58f1CZ8M4il0OZYg2oRN4w.png" alt="random forest" width="500" height="333"><br>
                     </div>
 
                     <div class="col-lg-8">
-                        <h2>Random Forest</h2>
-                        <h3>Accuracy</h3>
-                        <iframe width="800" height="400" title="Logistic Regression Accuracy Confusion Matrix" src="/Users/brianripley/Documents/GitHub/baseball-hof/app/static/lr_acc.html"></iframe>  
-                        <p class="lead">Give accuracy numbers </p>
+                        <h3>confusion Matrix</h3>
+                        <iframe width="800" height="400" title="Random Forest Accuracy Confusion Matrix" src="static/rf_conf_mtx.html"></iframe>
+                        <p class="lead">(75.12%): Most of our accuracies for our Machine learning models are all around 75%, we believe this is due to the quality and quantity of our data. With some more updated data sets we could possibly have a better accuracy for all machine models.
+</p>
                     </div>
                     <div class="col-lg-8">
-                        <h2>Model 2: Explanation</h2>
-                        <p class="lead">Explanation of Model 2</p>
-                        <img src="/Users/brianripley/Documents/GitHub/baseball-hof/app/static/images/knn_img.png" class="page-image" width="500"/>
+                        <h2>SVM: Support Vector Machine</h2><br><br>
+                        <img src="assets/img/svm_expl.png" alt="svm" width="500" height="333"><br><br>
+                        <p class="lead"> Both classification and regression are performed using supervised machine learning techniques known as Support Vector Machines (SVM). The most relevant phrase is categorization, even though we also mention worries about regression. However, classification issues are where it is most frequently utilized. When using the SVM algorithm, each data point is represented as a point in n-dimensional space (where n is the number of features you have), with each feature's value being the value of a certain coordinate.
+</p>
+
                     </div>
                     <div class="col-lg-8">
-                        <h2>K Nearest Neighbors: Results</h2>
-                        <h3>Accuracy</h3>
-                        <iframe width="800" height="400" title="KNN Accuracy Confusion Matrix" src="/Users/brianripley/Documents/GitHub/baseball-hof/app/static/knn_acc.html"></iframe>  
-                        <p class="lead">Give accuracy numbers</p>
+                        <h2>SVM Confusion matrix:</h2>
+                        <h3>Results</h3>
+                        <iframe width="800" height="400" title="KNN Accuracy Confusion Matrix" src="static/svm_conf_mtx.html"></iframe>
+                        <p class="lead">Short summary of accuracy (75.20%):
+Quality of the training data set is crucial for the model to learn. Your model will never produce correct results if the quality of the machine learning training data sets is poor or inaccurate, which will have an impact on the model's overall performance and make it unsuitable for usage in real-world scenarios. We made sure to "feed" the correct and optimal data to the SVM model.
+</p>
                     </div>
                     <div class="col-lg-8">
-                        <h2>Model 3: Explanation</h2>
-                        <p class="lead">Explanation of Model 3 </p>
-                        <img src="/Users/brianripley/Documents/GitHub/baseball-hof/app/static/images/svm_img.png" class="page-image" width="500"/>
+                        <h2>Neural Network</h2><br><br>
+                        <img src="assets/img/nn_expl.png" alt="svm" width="500" height="333"><br><br>
+                        <p class="lead"> An efficient illustration of how any AI works is a neural network. It functions by simulating a massive number of interconnected processing units that resemble abstract network representations. The processing units are made up of layers of arrangement. The low-level code is abstracted away when utilizing a neural network in Python, and tools like Keras and TensorFlow make it simpler to build neural networks (which we will be using).
+</p>
                     </div>
                     <div class="col-lg-8">
-                        <h2>Support Vector Machine: Results</h2>
-                        <h3>Accuracy</h3>
-                        <iframe width="800" height="400" title="SVM Accuracy Confusion Matrix" src="/Users/brianripley/Documents/GitHub/baseball-hof/app/static/svm_acc.html"></iframe>  
-                        <p class="lead">Give accuracy numbers</p>
+                        <h2>Neural Network</h2>
+                        <h3>Confusion Matrix</h3>
+                        <iframe width="800" height="400" title="NN Accuracy Confusion Matrix" src="static/nn_conf_mtx.html"></iframe>  
+                        <p class="lead">(75.04%): Because it was our first time utilizing Neural Networking, our accuracy with it was a little poor due to the structure of our data document's inability to comprehend all of the work.
+</p>
                     </div>
                 </div>
             </div>
@@ -259,9 +268,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Brian Ripley</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Connor 2.0.jpg" alt="..." />
+                            <h4>Connor Truong</h4>
+                            <p class="text-muted">Programmer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -269,9 +278,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>name here</h4>
-                            <p class="text-muted">Lead Marketer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Uryah 2.0.jpg" alt="..." />
+                            <h4>Uryah Wright</h4>
+                            <p class="text-muted">Programmer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -279,9 +288,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>name here</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Lezah.png" alt="..." />
+                            <h4>Lezah Inthisone</h4>
+                            <p class="text-muted">Programmer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -292,9 +301,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Brian Ripley</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/placeholder.jpeg" alt="..." />
+                            <h4>Tekle Skiles-Januta</h4>
+                            <p class="text-muted">Programmer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -302,9 +311,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>name here</h4>
-                            <p class="text-muted">Lead Marketer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Aurora.png" alt="..." />
+                            <h4>Aurora Melton</h4>
+                            <p class="text-muted">Programmer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -312,9 +321,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>name here</h4>
-                            <p class="text-muted">Lead Developer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Me 2.0 LUL.jpg" alt="..." />
+                            <h4>Michael Flowers</h4>
+                            <p class="text-muted">Programmer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -325,9 +334,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Brian Ripley</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Blake.jpg" alt="..." />
+                            <h4>Blake Hannula</h4>
+                            <p class="text-muted">Programmer/art designer</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -335,9 +344,9 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>name here</h4>
-                            <p class="text-muted">Lead Marketer</p>
+                            <img class="mx-auto rounded-circle" src="assets/img/team/brian.png" alt="..." />
+                            <h4>Brian Ripley</h4>
+                            <p class="text-muted">Instructor</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -345,7 +354,7 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">We together built a website that you can use to your hearts desire!</p></div>
                 </div>
             </div>
         </section>
@@ -373,7 +382,7 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">FIND US @</h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -460,10 +469,10 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Past infections cause Heart Disease</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                    <iframe width="600" height="500" title="correlation" src="static/hd_corr.html"></iframe>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>These Infections are past stroke related incidents,Diabetic history,a history of heavy drinking,mental health and physical health history. The best choice is to tell a docter about this history and find how susceptible you are.</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -495,11 +504,11 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Smoking People with VS Smoking People Without HeartDisease</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <iframe width="400" height="400" title="PhysicalHealth Pie" src="static/no_hd_smoke.html"></iframe>
- alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <iframe width="400" height="400" title="No Heart Disease Smokers" src="static/no_hd_smoke.html"></iframe>
+                                    <iframe width="400" height="400" title="Heart Disease Smokers" src="static/hd_smoke.html"></iframe>
+                                    <p> Smoking is a problem because you are pumping poison in your body constantly which with cause lung cancer and then heart disease</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -531,10 +540,10 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Age Possibility for Heartdisease</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <iframe width="600" height="500" title="Age Pie" src="static/hd_age_pie.html"></iframe>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Age is a main factor for heart disease it mostly happens for elders 80 or older this is a reliable source because this helps predict ages that are weaker for heart diseases</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -566,10 +575,10 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Heatmap for Suspects of Heart disease</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                     <iframe width="800" height="600" title="Heatmap" src="static/Heatmap.html"></iframe>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>These suspects for heart diseases are Smoking,Heavy drinking,Obesity, Kidney failure and sleeptime with many others. If you suffer from these factors try to eliminate the one you have more frequently.</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -601,10 +610,10 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Body Mass Cause for Heartdisease</h2>
                                     <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                    <iframe width="700" height="600" title="histogram.html" src="static/histogram.html"></iframe>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>Why obesity is a leading cause for heart disease is because your body has gotten weaker because of the damage of overly high sugar drinks and greasy unhealthy food. The wise decision is beware your calorie and fat intake.</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
@@ -636,10 +645,10 @@ The Random Forest is a supervised machine learning algorithm, which is composed 
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <h2 class="text-uppercase">Drinking Is no Big Problem for Heartdisease</h2>
+                                    <p class="item-intro text-muted"></p>
                                     <iframe width="700" height="600" title="no_hd_drink" src="static/no_hd_drink.html"></iframe>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p>The reason why drinking isn't a big problem is because it only effects you harder depending on the time and how much is drank. So the solution to this is you can drink at a minimum and take 1-2 hours between to not risk having any organ failure or anything that makes your body weaker.</p>
                                     <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
