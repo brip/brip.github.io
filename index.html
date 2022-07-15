@@ -31,6 +31,7 @@
                         <li class="nav-item"><a class="nav-link" href="#preprocessing">Pre-processing</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Visualizations</a></li>
                         <li class="nav-item"><a class="nav-link" href="#ml">Machine Learning</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#conclusion">Conclusion</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                     </ul>
                 </div>
@@ -40,15 +41,16 @@
         <header class="masthead">
             <div class="container">
                 <div class="masthead-subheading">Welcome To Our WebSite</div>
-                <div class="masthead-heading text-uppercase">Click Below To Have More Info </div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Our reasons</a>
+                <div class="masthead-heading text-uppercase">Predicting Heart Disease</div>
+                <div class="masthead-subheading">Shimmering Pythons</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#about">Our Project</a>
             </div>
         </header>
         <!-- About -->
         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Our Work Here</h2>
+                    <h2 class="section-heading text-uppercase">About</h2>
                     <h3 class="section-subheading text-muted">Welcome To The WebSite We Hope You Enjoy.</h3>
                 </div>
                 <div class="row text-center">
@@ -93,6 +95,7 @@
                           <img src="https://th.bing.com/th/id/R.9642b6af90ccba81eba325af058783c3?rik=bM6zUGwM0D3ETw&riu=http%3a%2f%2fmedia.giphy.com%2fmedia%2fhsfNpoVfUvuHS%2fgiphy.gif&ehk=OK6eOsKDYR4zAyCjK27c3UtJ4%2fqIEFVuNwxQyFSoeZA%3d&risl=&pid=ImgRaw&r=0" width="333" height="333"><br><br>
                     <h4 class="section-subheading text-muted">Steps taken before we began working with our data</h4>
                         <p class="lead">Data from our data frame is discarded and cleansed during data preparation, leaving us with a clean, usable DataFrame. This is crucial for machine learning since it will lessen the likelihood that certain artifacts and errors will appear on the website. Data Pre-Processing is a data mining technique used to turn the raw data into a format that is both practical and effective.<br><br> Our data Pre-processing involved Binarizing the Yes/No features, Ordinally encoding features with an inherent order and one hot encoding nominal features. Due to the prevalence of heart disease (&lt;10%) our DataSet consisted of only approximately 28,000 instances of individuals with heart disease and nearly 300,000 instances of individuals without. Our initial models were achieving good accuracy (~90%) by predicting nearly all individuals to not have heart disease. Therefore, we used random Under-sampling to level our DataSet. Random Under-Sampling involves deleting instances of the majority class. </p>
+                          <img src= "https://michael-fuchs-python.netlify.app/post/2020-01-16-dealing-with-imbalanced-classes_files/p37s3.png" alt="heart gif" width="450" height="333">
                       </div>
                   </div>
               </div>
@@ -102,7 +105,7 @@
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Some Of Our Data </h2>
+                    <h2 class="section-heading text-uppercase">Some Of Our Data In Correlation To Heart Disease </h2>
                     <h3 class="section-subheading text-muted">Here Is Some Examples Of Our Data That We Use To Help Us Predict if People Have Heart Disease.</h3>
                 </div>
                 <div class="row">
@@ -119,7 +122,7 @@
                             </a>
                             <div class="portfolio-caption">
              </span>
-                              <div class="portfolio-caption-heading">Data 1</div>
+                              <div class="portfolio-caption-heading">Past Infections</div>
                                 <div class="portfolio-caption-subheading text-muted">genetics, past infections, and other cardiovascular diseases will play a part in your chances of having heart disease.</div>
                             </div>
                         </div>
@@ -135,7 +138,7 @@
 
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Data 2</div>
+                                <div class="portfolio-caption-heading">Smoking Habits</div>
                                 <div class="portfolio-caption-subheading text-muted">if you look this pie plot it shows the amount of people who don't smoke who have Heart disease vs people who do smoke and have heart disease 0 stands for people who don't smoke 1 stands for people who do smoke</div>
                             </div>
                         </div>
@@ -150,7 +153,7 @@
                                 <img src="https://th.bing.com/th/id/R.f0a5b8ccef4b53d26f7bb70611023207?rik=hczC6V8wOHfGhQ&pid=ImgRaw&r=0" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Data 3</div>
+                                <div class="portfolio-caption-heading">Age Affection</div>
                                 <div class="portfolio-caption-subheading text-muted">Age also haves a correlation to heart disease.
                                The older you are, the greater chance you have of getting heart disease.</div>
                             </div>
@@ -166,7 +169,7 @@
                                 <img class="img-fluid" src="https://inspgr.id/app/uploads/2014/03/motion-david-szakaly-09.gif" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Data 4</div>
+                                <div class="portfolio-caption-heading">Suspect Correlations</div>
                                 <div class="portfolio-caption-subheading text-muted">This correlation shows a heat map with all the suspects for heart disease.</div>
                             </div>
                         </div>
@@ -181,7 +184,7 @@
                                 <img class="img-fluid" src="https://i.pinimg.com/originals/e2/76/c8/e276c853b7d272d72e2195eddff7c270.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Data 5</div>
+                                <div class="portfolio-caption-heading">Body Mass</div>
                                 <div class="portfolio-caption-subheading text-muted">Obesity is one of the leading causes of heart disease.</div>
                             </div>
                         </div>
@@ -196,8 +199,8 @@
                                 <img class="img-fluid" src="https://i.pinimg.com/originals/04/8f/57/048f57392c02775c255b7b85ca14a69f.jpg" alt="..." />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Data 6</div>
-                                <div class="portfolio-caption-subheading text-muted">drinking is not always a factor for heart disease this piece of evidence shows that drinking is not a big part.</div>
+                                <div class="portfolio-caption-heading">Alcohol Consumption</div>
+                                <div class="portfolio-caption-subheading text-muted">Drinking is not always a factor for heart disease this piece of evidence shows that drinking is not a big part.</div>
                             </div>
                         </div>
                     </div>
@@ -236,11 +239,10 @@
 
                     </div>
                     <div class="col-lg-8">
-                        <h2>SVM Confusion Matrix:</h2>
+                        <h2>SVM Confusion Matrix:</h2><br>
                         <iframe width="800" height="400" title="KNN Accuracy Confusion Matrix" src="static/svm_conf_mtx.html"></iframe>
-                        <p class="lead">Short summary of accuracy (75.20%):
-Quality of the training data set is crucial for the model to learn. Your model will never produce correct results if the quality of the machine learning training data sets is poor or inaccurate, which will have an impact on the model's overall performance and make it unsuitable for usage in real-world scenarios. We made sure to "feed" the correct and optimal data to the S.V.M. model.
-</p>
+                        <p class="lead">(75.20%): Quality of the training data set is crucial for the model to learn. Your model will never produce correct results if the quality of the machine learning training data sets is poor or inaccurate, which will have an impact on the model's overall performance and make it unsuitable for usage in real-world scenarios. We made sure to "feed" the correct and optimal data to the S.V.M. model.
+</p><br><br>
                     </div>
                     <div class="col-lg-8">
                         <h2>Neural Network</h2><br><br>
@@ -251,7 +253,7 @@ Quality of the training data set is crucial for the model to learn. Your model w
                     <div class="col-lg-8">
 
                         <h3>Neural Network Confusion Matrix</h3>
-                        <iframe width="800" height="400" title="NN Accuracy Confusion Matrix" src="static/nn_conf_mtx.html"></iframe>  
+                        <iframe width="800" height="400" title="NN Accuracy Confusion Matrix" src="static/nn_conf_mtx.html"></iframe>
                         <p class="lead">(75.04%): Because it was our first time utilizing Neural Networking, our accuracy with it was a little poor due to the structure of our data document's inability to comprehend all of the work.
 </p>
                     </div>
@@ -263,11 +265,12 @@ Quality of the training data set is crucial for the model to learn. Your model w
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
+ <img class="img-fluid" src="https://vignette.wikia.nocookie.net/life-is-strange/images/1/18/Hospital.jpg/revision/latest?cb=20150730044416" alt="..." /><br><br>
                     <h1 id="top-level-heading">Conclusion</h1><br/>
                     </div>
                     <div class="col-lg-8">
 
-                        <p class="lead"> All of our machine models performed similarly at around 75% accuracy after our dataset was truncated through random undersampling. After random undersampling, we used accuracy as our evaluation metric as our dataset then contained equal instances indiciduals with and without heart disease. <br> Such a project may be useful to a hospital or medical company so that they can pinpoint the leading factors for heart disease and to hopefully modernize health care because coding is the future in like ten-thirty years from now doctors are going to be obsolete compared to "robots" or machines that will be made that could do a surgery or give a certain amount of medicine or help discover diseases like heart disease from using a data base of info on certain factors that contribute to heart disease.</p>
+                        <p class="lead"> All of our machine models performed similarly at around 75% accuracy after our dataset was truncated through random undersampling. After random undersampling, we used accuracy as our evaluation metric as our dataset then contained equal instances individuals with and without heart disease. <br> Such a project may be useful to a hospital or medical company so that they can pinpoint the leading factors for heart disease and to hopefully modernize health care because coding is the future in like ten-thirty years from now doctors are going to be obsolete compared to "robots" or machines that will be made that could do a surgery or give a certain amount of medicine or help discover diseases like heart disease from using a data base of info on certain factors that contribute to heart disease.</p>
 
                     </div>
                 </div>
@@ -283,23 +286,23 @@ Quality of the training data set is crucial for the model to learn. Your model w
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/Connor 2.0.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Connor 2.0.jpg" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Connor Truong</h4>
                             <p class="text-muted">Programmer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/Uryah 2.0.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Uryah 2.0.jpg" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Uryah Wright</h4>
-                            <p class="text-muted">Programmer</p>
+                            <p class="text-danger">Programmer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/Lezah.png" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Lezah.png" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Lezah Inthisone</h4>
-                            <p class="text-muted">Programmer</p>
+                            <p class="text-warning">Programmer</p>
                         </div>
                     </div>
                 </div>
@@ -307,23 +310,23 @@ Quality of the training data set is crucial for the model to learn. Your model w
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/placeholder.jpeg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/placeholder.jpeg" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Tekle Skiles-Januta</h4>
-                            <p class="text-muted">Programmer</p>
+                            <p class="text-info">Programmer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/Aurora.png" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Aurora.png" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Aurora Melton</h4>
-                            <p class="text-muted">Programmer</p>
+                            <p class="text-success">Programmer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/Me 2.0 LUL.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Me 2.0 LUL.jpg" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Michael Flowers</h4>
-                            <p class="text-muted">Programmer</p>
+                            <p class="text-primary">Programmer</p>
                         </div>
                     </div>
                 </div>
@@ -331,14 +334,14 @@ Quality of the training data set is crucial for the model to learn. Your model w
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/Blake.jpg" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Blake.jpg" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Blake Hannula</h4>
                             <p class="text-muted">Programmer/art designer</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/brian.png" alt="..." />
+                            <img class="mx-auto rounded-circle" src="assets/img/team/brian.png" alt="..." style = "border: #000000 6px outset"/>
                             <h4>Brian Ripley</h4>
                             <p class="text-muted">Instructor</p>
                         </div>
@@ -372,16 +375,7 @@ Quality of the training data set is crucial for the model to learn. Your model w
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                    </div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Shimmering Pythons 2022</div>
                 </div>
             </div>
         </footer>
@@ -400,19 +394,9 @@ Quality of the training data set is crucial for the model to learn. Your model w
                                     <p class="item-intro text-muted"></p>
                                    <iframe width="700" height="600" title="correlation" src="static/hd_corr.html"></iframe>
                                     <p>These Infections are past stroke related incidents,Diabetic history,a history of heavy drinking,mental health and physical health history. As this histogram shows general Health is the best predictor for heart disease with ~0.25 correlation. However, none of the features alone are very strong predictors for heart disease.</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Visual
                                     </button>
                                 </div>
                             </div>
@@ -436,19 +420,9 @@ Quality of the training data set is crucial for the model to learn. Your model w
                                     <embed style="border: none;" src="static/no_hd_smoke.html" dpi="300" width="70%" height="500px" />
                                     <embed style="border: none;" src="static/hd_smoke.html" dpi="300" width="70%" height="500px" />
                                     <p>These pie plots are representing smokers Vs non smokers likely for heart disease. As you see 60.4% out of 100% non heart disease patients don't smoke while the rest still don't have heart disease but do smoke. After that 58.6% out of 100% do smoke that have heart disease while the rest still have heart disease that don't smoke.</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Visual
                                     </button>
                                 </div>
                             </div>
@@ -471,19 +445,9 @@ Quality of the training data set is crucial for the model to learn. Your model w
                                     <p class="item-intro text-muted"></p>
                                     <embed style="border: none;" src="static/hd_age_pie.html" dpi="300" width="70%" height="500px" />
                                     <p>Age is a main factor for heart disease it mostly happens for elders 80 or older this is a reliable source because this helps predict ages that are weaker for heart diseases</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Finish
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Identity
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Visual
                                     </button>
                                 </div>
                             </div>
@@ -506,19 +470,9 @@ Quality of the training data set is crucial for the model to learn. Your model w
                                     <p class="item-intro text-muted"></p>
                                     <iframe width="700" height="600" title="correlation" src="static/Heatmap.html"></iframe>
                                     <p>These suspects for heart diseases are Smoking,Heavy drinking,Obesity, Kidney failure and sleep time with many others. If you suffer from these factors try to eliminate the one you have more frequently.</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Lines
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Branding
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Visual
                                     </button>
                                 </div>
                             </div>
@@ -543,7 +497,7 @@ Quality of the training data set is crucial for the model to learn. Your model w
                                     <p>We would think that obesity is a leading cause for heart disease because your body has gotten weaker due to the damage of overly high sugar drinks and greasy unhealthy food. The wise decision is beware your calorie and fat intake. However, we see here that the BMI distribution is pretty similar across those with and without heart disease.</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Visual
                                     </button>
                                 </div>
                             </div>
@@ -567,19 +521,9 @@ Quality of the training data set is crucial for the model to learn. Your model w
                                     <embed style="border: none;" src="static/no_hd_drink.html" dpi="300" width="70%" height="500px" />
                                     <embed style="border: none;" src="static/hd_drink.html" dpi="300" width="70%" height="500px" />
                                     <p>Surprisingly, we see that drinking is not a large factor in determining whether someone has heart disease. A smaller proportion of those with heart disease are drinkers when compared to non-heart disease individuals. The reason why drinking isn't a big problem is because it only effects you harder depending on the time and how much is drank. So the solution to this is you can drink at a minimum and take 1-2 hours between to not risk having any organ failure or anything that makes your body weaker.</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        Close Visual
                                     </button>
                                 </div>
                             </div>
